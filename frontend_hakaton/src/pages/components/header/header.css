@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: right;
+  }
+  
+  li.nav-item a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 16px;
+  }
+  
+  li.nav-item a:hover {
+    font-weight: bold;
+    visibility: 0.7;
+  }

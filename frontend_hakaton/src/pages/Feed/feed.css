@@ -1,0 +1,72 @@
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
+
+  .feedPub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, #0b0c0c34, #021b09);
+    color:white;
+    border: solid 1px white;
+    border-radius: 15px;
+    padding: 20px
+}
+
+.feedPub input[type=text]{
+    width: 90%;
+    height: 50%;
+    text-align: start;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.feedPub input[type=file]{
+    width: 80%;
+    height: 50%;
+    text-align: start;
+    padding: 20px;
+}
+
+button{
+    background-color: #043712;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 1px white;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px 15px;
+    background-color: #0c580518;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20px;
+  }
+
+  .input:hover {
+    background-color: #084f348f;
+  }
+
+  select{
+    background-color: #053d1470;
+    color: white;
+    height: 50px;
+    margin-top: 2.5%;
+  }

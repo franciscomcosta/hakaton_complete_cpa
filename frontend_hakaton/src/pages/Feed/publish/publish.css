@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(3, 57, 39);
+    padding: 5%;
+    border-radius: 15px;
+    border: solid 1px white;
+    margin-bottom: 10%;
+}
+
+.text{
+    width: 50%;
+    padding: 20px;
+}
+
+.text h4{
+    margin-top: 10%;
+    
+}

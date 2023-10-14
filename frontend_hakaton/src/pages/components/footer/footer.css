@@ -1,0 +1,7 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(---green);
+    border-radius: 12px 12px 0 0;
+  }
